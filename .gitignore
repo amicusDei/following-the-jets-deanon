@@ -1,0 +1,11 @@
+# Data — never committed. Licensed (WRDS/SDC/Compustat) or private (flight/firm/jet tables).
+*.csv
+*.json
+*.db
+*.sqlite
+*.parquet
+# Secrets / credentials
+.env
+*.pem
+.DS_Store
+__pycache__/
