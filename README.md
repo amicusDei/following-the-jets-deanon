@@ -1,6 +1,6 @@
-# nwejets — jet de-anonymization & coverage expansion
+# following-the-jets-deanon — jet de-anonymization & coverage expansion
 
-The **jet-identification companion** to [`predfkitweball`](../predfkitweball) (the "can private-jet flights predict mergers?" investigation). This repo holds the pipeline that expands acquirer coverage — turning trustee/LLC-hidden corporate jets into named, home-base-verified aircraft using only free data — plus the analysis scripts and result figures from the widened re-run.
+The **jet-identification companion** to [`following-the-jets`](https://github.com/amicusDei/following-the-jets) (the "can private-jet flights predict mergers?" investigation). This repo holds the pipeline that expands acquirer coverage — turning trustee/LLC-hidden corporate jets into named, home-base-verified aircraft using only free data — plus the analysis scripts and result figures from the widened re-run.
 
 **Pipeline:** S&P-500 dealmakers (WRDS/SDC) → jet identification (FAA owner-name match → SEC filings → web research) → OpenSky home-base verification → deal-target-HQ geocoding.
 
