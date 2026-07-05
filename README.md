@@ -1,6 +1,6 @@
 # following-the-jets-deanon — jet de-anonymization & coverage expansion
 
-The **jet-identification companion** to [`following-the-jets`](https://github.com/amicusDei/following-the-jets) (the "can private-jet flights predict mergers?" investigation). This repo holds the pipeline that expands acquirer coverage — turning trustee/LLC-hidden corporate jets into named, home-base-verified aircraft using only free data — plus the analysis scripts and result figures from the widened re-run.
+The **jet-identification companion** to [`following-the-jets`](https://github.com/amicusDei/following-the-jets) (the "can corporate-jet flights predict mergers?" investigation). This repo holds the pipeline that expands acquirer coverage — turning trustee/LLC-hidden corporate jets into named, home-base-verified aircraft using only free data — plus the analysis scripts and result figures from the widened re-run.
 
 **Pipeline:** S&P-500 dealmakers (WRDS/SDC) → jet identification (FAA owner-name match → SEC filings → web research) → OpenSky home-base verification → deal-target-HQ geocoding.
 
@@ -8,11 +8,11 @@ The **jet-identification companion** to [`following-the-jets`](https://github.co
 
 > **Expanding jet coverage does not rescue the signal — it independently confirms the null.**
 >
-> - The widened backtest (554 deals, 202 firms) shows a within-pair enrichment of **1.38× (p = 5×10⁻⁴)** that is arithmetically real but **collapses against a proper null-matched placebo (1.11×, p = 0.19)** — the same control-design artifact `predfkitweball` diagnosed.
+> - The widened backtest (554 deals, 202 firms) shows a within-pair enrichment of **1.38× (p = 5×10⁻⁴)** that is arithmetically real but **collapses against a proper null-matched placebo (1.11×, p = 0.19)** — the same control-design artifact [`following-the-jets`](https://github.com/amicusDei/following-the-jets) diagnosed.
 > - The pre-deal flight "hump" (raw ~1.48×) **dissolves** under one-firm-one-vote, drop-outlier, and activity-matched controls. A 148-deal nearest-neighbour event model comes out at **chance**.
 > - The binding constraint is **not** acquirer-jet visibility — it's **target privacy**: 88% of these firms' deals have private or subsidiary targets with no geocodable HQ, so only ~10% (public targets) are ever testable. Better jet tracking buys almost no new testable deals.
 >
-> A full free-data recovery pipeline (SEC time-share → FAA → OpenSky, 76 → 111 firms, +59 jets) is the engineering contribution; the scientific contribution is a clean, independent replication of the parent project's null.
+> A full free-data recovery pipeline (SEC time-share → FAA → OpenSky → web research) that identifies **204 business jets across 111 dealmaker firms** is the engineering contribution; the scientific contribution is a clean, independent replication of the parent project's null.
 
 See [`WIDENED-82FIRM-RESULTS.md`](WIDENED-82FIRM-RESULTS.md) (widened re-run + overlooked-deal analysis) and [`DEANON-302-RESEARCH.md`](DEANON-302-RESEARCH.md) (the LLC/trust de-anonymization playbook).
 

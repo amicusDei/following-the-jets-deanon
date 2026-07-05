@@ -64,4 +64,4 @@ universe further will keep hitting the same 10%-public-target ceiling.
 
 ### Artifacts
 - `jetfirm_all_deals_82.csv` — full 1,063-deal universe of the 82 jet-firms (target-type tagged)
-- baseline numbers: `deanon/results/widened_results.json` (in the predfkitweball repo)
+- baseline numbers: `deanon/results/widened_results.json` (in the following-the-jets repo)
